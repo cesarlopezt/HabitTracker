@@ -11,6 +11,10 @@
 		DBC7190829D113F9006E0E36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC7190729D113F9006E0E36 /* ContentView.swift */; };
 		DBC7190A29D113FB006E0E36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC7190929D113FB006E0E36 /* Assets.xcassets */; };
 		DBC7190D29D113FB006E0E36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC7190C29D113FB006E0E36 /* Preview Assets.xcassets */; };
+		DBC7191429D1146E006E0E36 /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC7191329D1146E006E0E36 /* Habit.swift */; };
+		DBC7191629D115A8006E0E36 /* HabitsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC7191529D115A8006E0E36 /* HabitsManager.swift */; };
+		DBC7191829D11A0B006E0E36 /* AddHabit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC7191729D11A0B006E0E36 /* AddHabit.swift */; };
+		DBC7191A29D23071006E0E36 /* HabitDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC7191929D23071006E0E36 /* HabitDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		DBC7190729D113F9006E0E36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DBC7190929D113FB006E0E36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBC7190C29D113FB006E0E36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DBC7191329D1146E006E0E36 /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
+		DBC7191529D115A8006E0E36 /* HabitsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsManager.swift; sourceTree = "<group>"; };
+		DBC7191729D11A0B006E0E36 /* AddHabit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabit.swift; sourceTree = "<group>"; };
+		DBC7191929D23071006E0E36 /* HabitDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				DBC7190529D113F9006E0E36 /* HabitTrackerApp.swift */,
+				DBC7191329D1146E006E0E36 /* Habit.swift */,
+				DBC7191529D115A8006E0E36 /* HabitsManager.swift */,
 				DBC7190729D113F9006E0E36 /* ContentView.swift */,
+				DBC7191929D23071006E0E36 /* HabitDetail.swift */,
+				DBC7191729D11A0B006E0E36 /* AddHabit.swift */,
 				DBC7190929D113FB006E0E36 /* Assets.xcassets */,
 				DBC7190B29D113FB006E0E36 /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBC7191629D115A8006E0E36 /* HabitsManager.swift in Sources */,
+				DBC7191829D11A0B006E0E36 /* AddHabit.swift in Sources */,
+				DBC7191429D1146E006E0E36 /* Habit.swift in Sources */,
 				DBC7190829D113F9006E0E36 /* ContentView.swift in Sources */,
 				DBC7190629D113F9006E0E36 /* HabitTrackerApp.swift in Sources */,
+				DBC7191A29D23071006E0E36 /* HabitDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
